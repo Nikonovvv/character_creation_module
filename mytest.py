@@ -50,22 +50,33 @@
 # print(__doc__)
 
 
-message = 'Добро пожаловать в самую лучшую программу для вычисления ' \
-          'квадратного корня из заданного числа'
+# message = 'Добро пожаловать в самую лучшую программу для вычисления ' \
+#           'квадратного корня из заданного числа'
 
 
-def CalculateSquareRoot(Number):
-    """ Вычисляет квадратный корень"""
-    return CalculateSquareRoot(Number)
+# def CalculateSquareRoot(Number):
+#     """ Вычисляет квадратный корень"""
+#     return CalculateSquareRoot(Number)
 
 
-def calc(your_number):
-    if your_number <= 0:
-        return
-
-    print(f'Мы вычислили квадратный корень из введённого вами числа. '
-          f'Это будет: {CalculateSquareRoot(your_number)}')
 
 
-print(message)
-calc(25.5)
+# def calc(your_number):
+#     if your_number <= 0:
+#         return
+
+#     print(f'Мы вычислили квадратный корень из введённого вами числа. '
+#           f'Это будет: {CalculateSquareRoot(your_number)}')
+
+
+# print(message)
+# calc(25.5)
+
+
+def avg(first_num, second_num):
+    return first_num + second_num / 2
+
+print(avg(5, 10)) 
+print(avg(5, 10)) 
+
+
